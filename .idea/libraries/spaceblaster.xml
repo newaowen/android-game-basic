@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="spaceblaster">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/2d/space-blaster/bin/spaceblaster.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

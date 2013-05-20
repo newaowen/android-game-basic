@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="flip3dviewtransition">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/3d/android-3d-flip-view-transition-read-only/bin/flip3dviewtransition.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

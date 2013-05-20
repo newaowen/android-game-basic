@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="dexedLibs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/portal/bin/dexedLibs/asteroids-0a8379f1580b5097a75b54db29385c83.jar!/" />
+      <root url="jar://$PROJECT_DIR$/portal/bin/dexedLibs/spaceblaster-4ea6cc1df8835be9dd9937de5809cc03.jar!/" />
+      <root url="jar://$PROJECT_DIR$/portal/bin/dexedLibs/android-support-v4-556ea9ec1778189f10644d83b1e9288e.jar!/" />
+      <root url="jar://$PROJECT_DIR$/portal/bin/dexedLibs/asteroids-f64cbecb728ece813a72d9995f21d033.jar!/" />
+      <root url="jar://$PROJECT_DIR$/portal/bin/dexedLibs/android-support-v4-3b93f5ed362492b25c5317614328f7d8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/portal/bin/dexedLibs/spaceblaster-43f1a9cf5972149bc5fba2b617e88279.jar!/" />
+      <root url="jar://$PROJECT_DIR$/portal/bin/dexedLibs/tetris-28057b6895c68886b32da9e5293b4131.jar!/" />
+      <root url="jar://$PROJECT_DIR$/portal/bin/dexedLibs/flip3dviewtransition-ca785fd2f1fac85cd478863c393ba939.jar!/" />
+      <root url="jar://$PROJECT_DIR$/portal/bin/dexedLibs/spaceblaster-69fa6b5478c1a736813c956b95298a42.jar!/" />
+      <root url="jar://$PROJECT_DIR$/portal/bin/dexedLibs/asteroids-0b297d28c7faa0d4bc05db072c9e92b3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/portal/bin/dexedLibs/android-support-v4-f51b7e356c9d3e6a37fb76d42322ca76.jar!/" />
+      <root url="jar://$PROJECT_DIR$/portal/bin/dexedLibs/basic-f21994bbe1b22355bc49f530b9ccb977.jar!/" />
+      <root url="jar://$PROJECT_DIR$/portal/bin/dexedLibs/draw-50c639bf64001d98029018e2bd741c35.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
