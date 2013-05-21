@@ -25,7 +25,8 @@
         <activity android:name="com.warsong.game.ui.Basic2DTabActivity"></activity>
         <activity android:name="com.warsong.game.ui.Basic3DTabActivity"></activity>
         <activity android:name="com.warsong.game.draw.MainActivity"></activity>
-        <activity android:name="android.game.MainAct"></activity>
+<!--         <activity android:name="android.game.MainAct"></activity> -->
+		<activity android:name="com.warsong.game.tetris.MainActivity"></activity>
         <activity android:name="com.warsong.game.asteroids.AsteroidsActivity"></activity>
         <activity android:name="com.warsong.game.sb.SpaceBlaster"></activity>
     </application>

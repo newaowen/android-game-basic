@@ -9,7 +9,6 @@
       <module fileurl="file://$PROJECT_DIR$/2d/draw/draw.iml" filepath="$PROJECT_DIR$/2d/draw/draw.iml" />
       <module fileurl="file://$PROJECT_DIR$/portal/portal.iml" filepath="$PROJECT_DIR$/portal/portal.iml" />
       <module fileurl="file://$PROJECT_DIR$/2d/space-blaster/space-blaster.iml" filepath="$PROJECT_DIR$/2d/space-blaster/space-blaster.iml" />
-      <module fileurl="file://$PROJECT_DIR$/2d/tetris/tetris.iml" filepath="$PROJECT_DIR$/2d/tetris/tetris.iml" />
     </modules>
   </component>
 </project>

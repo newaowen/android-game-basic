@@ -37,7 +37,7 @@ public class Basic2DTabActivity extends Activity {
 	public void initDemos() {
 		demos = new ArrayList<DemoItem>();
 		demos.add(new DemoItem("基本绘制", PackageHelper.PACKAGE_NAME + ".draw.MainActivity"));
-		demos.add(new DemoItem("俄罗斯方块", "android.game.MainAct"));
+		demos.add(new DemoItem("俄罗斯方块", PackageHelper.PACKAGE_NAME + ".tetris.MainActivity"));
 		demos.add(new DemoItem("SpaceBlaster", PackageHelper.PACKAGE_NAME + ".sb.SpaceBlaster"));
 		demos.add(new DemoItem("Asteroids", PackageHelper.PACKAGE_NAME + ".asteroids.AsteroidsActivity"));
 		//demos.add(new DemoItem("声音", "sound", "SoundActivity"));

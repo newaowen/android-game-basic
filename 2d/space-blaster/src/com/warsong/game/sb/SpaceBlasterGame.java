@@ -67,7 +67,7 @@ public class SpaceBlasterGame extends ArcadeGame {
 	@Override
 	protected void onDraw(Canvas canvas) {
 		super.dispatchDraw(canvas);
-		//paint(canvas);
+		paint(canvas);
 	}
 
 	@Override
