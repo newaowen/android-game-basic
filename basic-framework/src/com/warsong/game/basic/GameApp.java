@@ -1,6 +1,10 @@
 package com.warsong.game.basic;
 
 import android.app.Activity;
+import android.view.MotionEvent;
+import android.view.View;
+import android.view.GestureDetector.OnGestureListener;
+import android.view.View.OnTouchListener;
 
 
 /**
@@ -14,8 +18,12 @@ public class GameApp extends GameContext {
 	
 	// 绘制表面变化监听
 	protected SurfaceListener  surfaceListener;
-
 	
+	// 手势监听
+	protected OnGestureListener gestureListener;
+
+	protected OnTouchListener onTouchListener;
+
 	public static GameApp getInstance() {
     	return instance;
     }
@@ -40,14 +48,14 @@ public class GameApp extends GameContext {
     }
     
     /**
-     * 手动创建表面 
+     * 手动创建并初始化表面
      */
     public void createSurface() {
     	surface = new GameSurface(activity);
+    	surface.bindTouchListener();
     	activity.setContentView(surface);
     }
   
-	
 	/**
 	 * TODO 
 	 * 加载默认配置  
@@ -92,8 +100,27 @@ public class GameApp extends GameContext {
     	}
     	// TODO dispatch message
     }
+
+    /**
+     * 触屏事件监听器
+     * @param event
+     */
+    public OnTouchListener getOnTouchListener() {
+		return onTouchListener;
+	}
+
+	public void setOnTouchListener(OnTouchListener onTouchListener) {
+		this.onTouchListener = onTouchListener;
+	}
     
-    
+	public OnGestureListener getGestureListener() {
+		return gestureListener;
+	}
+
+	public void setGestureListener(OnGestureListener gestureListener) {
+		this.gestureListener = gestureListener;
+	}
+	
     public SurfaceListener getSurfaceListener() {
 		return surfaceListener;
 	}
@@ -123,7 +150,6 @@ public class GameApp extends GameContext {
     }
     
     protected SurfaceListener defaultSurfaceListener = new SurfaceListener() {
-		
 		@Override
 		public void onSurfaceDestory() {
 			stop(); 

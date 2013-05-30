@@ -24,8 +24,10 @@ public class GameContext {
 	
     // 场景管理
 	protected GameSceneManager  sceneManager;
-	
-	// looper
+
+
+
+    // looper
 	protected GameLooper  gameLooper;
 	
     public GameContext() {
@@ -56,9 +58,17 @@ public class GameContext {
     public Context getActivityContext() {
         return activity;
     }
+
+    public Context getActivityBaseContext() {
+        return activity.getBaseContext();
+    }
     
     public GameSceneManager getSceneManager() {
         return sceneManager;
+    }
+
+    public GameLooper getGameLooper() {
+        return gameLooper;
     }
 
 }

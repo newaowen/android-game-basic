@@ -10,80 +10,68 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76bf6156-be71-4200-8181-a25129c6cf05" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/basic-framework/src/com/warsong/game/basic/GameLooper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/basic-framework/src/com/warsong/game/basic/GameSurface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2d/basic-tetris/src/com/warsong/game/tetris/TetrisSurface.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2d/asteroids/gen/com/warsong/game/asteroids/Manifest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2d/basic-tetris/gen/com/warsong/game/tetris/Manifest.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2d/basic-tetris/src/com/warsong/game/tetris/TetrisConstant.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2d/basic-tetris/src/com/warsong/game/tetris/TetrisShape.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2d/basic-tetris/src/com/warsong/game/tetris/TetrisShapeFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2d/basic-tetris/src/com/warsong/game/tetris/TetrisShapeSpec.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2d/basic-tetris/src/com/warsong/game/tetris/TetrisSurface.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/2d/space-blaster/bin/spaceblaster.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2d/space-blaster/gen/com/warsong/game/sb/Manifest.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/2d/tetris/gen/android/game/Manifest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3d/android-3d-flip-view-transition-read-only/gen/com/tekle/oss/android/flipviewtransition/Manifest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/basic-framework/bin/basic.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/3d/android-3d-flip-view-transition-read-only/bin/flip3dviewtransition.jar" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/basic-framework/bin/classes/com/warsong/game/tetris/BasicTetris.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/basic-framework/gen/com/warsong/game/basic/BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/basic-framework/gen/com/warsong/game/basic/Manifest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/basic-framework/gen/com/warsong/game/basic/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/basic-framework/src/com/warsong/game/basic/GameView.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic-framework/bin/classes/com/warsong/game/helper/DeviceHelper.class" afterPath="$PROJECT_DIR$/basic-framework/bin/classes/com/warsong/game/helper/DeviceHelper.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2d/basic-tetris/bin/classes/com/warsong/game/tetris/MainActivity.class" afterPath="$PROJECT_DIR$/2d/basic-tetris/bin/classes/com/warsong/game/tetris/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2d/draw/bin/classes/com/warsong/game/draw/MainActivity.class" afterPath="$PROJECT_DIR$/2d/draw/bin/classes/com/warsong/game/draw/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2d/basic-tetris/bin/classes/com/warsong/game/tetris/R$dimen.class" afterPath="$PROJECT_DIR$/2d/basic-tetris/bin/classes/com/warsong/game/tetris/R$dimen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2d/basic-tetris/bin/classes/com/warsong/game/tetris/R$string.class" afterPath="$PROJECT_DIR$/2d/basic-tetris/bin/classes/com/warsong/game/tetris/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2d/basic-tetris/bin/classes/com/warsong/game/tetris/R$style.class" afterPath="$PROJECT_DIR$/2d/basic-tetris/bin/classes/com/warsong/game/tetris/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2d/space-blaster/bin/classes/com/warsong/game/sb/SpaceBlasterGame.class" afterPath="$PROJECT_DIR$/2d/space-blaster/bin/classes/com/warsong/game/sb/SpaceBlasterGame.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2d/basic-tetris/bin/classes/com/warsong/game/tetris/TetrisScene.class" afterPath="$PROJECT_DIR$/2d/basic-tetris/bin/classes/com/warsong/game/tetris/TetrisScene.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2d/asteroids/bin/asteroids.jar" afterPath="$PROJECT_DIR$/2d/asteroids/bin/asteroids.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2d/draw/bin/draw.jar" afterPath="$PROJECT_DIR$/2d/draw/bin/draw.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/3d/android-3d-flip-view-transition-read-only/bin/flip3dviewtransition.jar" afterPath="$PROJECT_DIR$/3d/android-3d-flip-view-transition-read-only/bin/flip3dviewtransition.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2d/tetris/bin/tetris.jar" afterPath="$PROJECT_DIR$/2d/tetris/bin/tetris.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2d/asteroids/.project" afterPath="$PROJECT_DIR$/2d/asteroids/.project" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2d/basic-tetris/.project" afterPath="$PROJECT_DIR$/2d/basic-tetris/.project" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2d/draw/.project" afterPath="$PROJECT_DIR$/2d/draw/.project" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2d/space-blaster/.project" afterPath="$PROJECT_DIR$/2d/space-blaster/.project" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2d/tetris/.project" afterPath="$PROJECT_DIR$/2d/tetris/.project" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic-framework/.project" afterPath="$PROJECT_DIR$/basic-framework/.project" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/.project" afterPath="$PROJECT_DIR$/portal/.project" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/AndroidManifest.xml" afterPath="$PROJECT_DIR$/portal/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/src/com/warsong/game/ui/Basic2DTabActivity.java" afterPath="$PROJECT_DIR$/portal/src/com/warsong/game/ui/Basic2DTabActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2d/asteroids/gen/com/warsong/game/asteroids/BuildConfig.java" afterPath="$PROJECT_DIR$/2d/asteroids/gen/com/warsong/game/asteroids/BuildConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2d/basic-tetris/gen/com/warsong/game/tetris/BuildConfig.java" afterPath="$PROJECT_DIR$/2d/basic-tetris/gen/com/warsong/game/tetris/BuildConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2d/draw/gen/com/warsong/game/draw/BuildConfig.java" afterPath="$PROJECT_DIR$/2d/draw/gen/com/warsong/game/draw/BuildConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2d/space-blaster/gen/com/warsong/game/sb/BuildConfig.java" afterPath="$PROJECT_DIR$/2d/space-blaster/gen/com/warsong/game/sb/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2d/tetris/gen/android/game/BuildConfig.java" afterPath="$PROJECT_DIR$/2d/tetris/gen/android/game/BuildConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/3d/android-3d-flip-view-transition-read-only/gen/com/tekle/oss/android/flipviewtransition/BuildConfig.java" afterPath="$PROJECT_DIR$/3d/android-3d-flip-view-transition-read-only/gen/com/tekle/oss/android/flipviewtransition/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic-framework/src/com/warsong/game/helper/DeviceHelper.java" afterPath="$PROJECT_DIR$/basic-framework/src/com/warsong/game/helper/DeviceHelper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic-framework/src/com/warsong/game/basic/GameApp.java" afterPath="$PROJECT_DIR$/basic-framework/src/com/warsong/game/basic/GameApp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic-framework/src/com/warsong/game/basic/GameContext.java" afterPath="$PROJECT_DIR$/basic-framework/src/com/warsong/game/basic/GameContext.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic-framework/src/com/warsong/game/basic/GameLooper.java" afterPath="$PROJECT_DIR$/basic-framework/src/com/warsong/game/basic/GameLooper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic-framework/src/com/warsong/game/basic/GameScene.java" afterPath="$PROJECT_DIR$/basic-framework/src/com/warsong/game/basic/GameScene.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic-framework/src/com/warsong/game/basic/GameSurface.java" afterPath="$PROJECT_DIR$/basic-framework/src/com/warsong/game/basic/GameSurface.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2d/basic-tetris/src/com/warsong/game/tetris/MainActivity.java" afterPath="$PROJECT_DIR$/2d/basic-tetris/src/com/warsong/game/tetris/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2d/asteroids/gen/com/warsong/game/asteroids/R.java" afterPath="$PROJECT_DIR$/2d/asteroids/gen/com/warsong/game/asteroids/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2d/basic-tetris/gen/com/warsong/game/tetris/R.java" afterPath="$PROJECT_DIR$/2d/basic-tetris/gen/com/warsong/game/tetris/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2d/draw/gen/com/warsong/game/draw/R.java" afterPath="$PROJECT_DIR$/2d/draw/gen/com/warsong/game/draw/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2d/space-blaster/gen/com/warsong/game/sb/R.java" afterPath="$PROJECT_DIR$/2d/space-blaster/gen/com/warsong/game/sb/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2d/tetris/gen/android/game/R.java" afterPath="$PROJECT_DIR$/2d/tetris/gen/android/game/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/3d/android-3d-flip-view-transition-read-only/gen/com/tekle/oss/android/flipviewtransition/R.java" afterPath="$PROJECT_DIR$/3d/android-3d-flip-view-transition-read-only/gen/com/tekle/oss/android/flipviewtransition/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2d/space-blaster/src/com/warsong/game/sb/SpaceBlasterGame.java" afterPath="$PROJECT_DIR$/2d/space-blaster/src/com/warsong/game/sb/SpaceBlasterGame.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2d/basic-tetris/src/com/warsong/game/tetris/TetrisBlock.java" afterPath="$PROJECT_DIR$/2d/basic-tetris/src/com/warsong/game/tetris/TetrisBlock.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2d/basic-tetris/src/com/warsong/game/tetris/TetrisGameApp.java" afterPath="$PROJECT_DIR$/2d/basic-tetris/src/com/warsong/game/tetris/TetrisGameApp.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2d/basic-tetris/src/com/warsong/game/tetris/TetrisScene.java" afterPath="$PROJECT_DIR$/2d/basic-tetris/src/com/warsong/game/tetris/TetrisScene.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/project.properties" afterPath="$PROJECT_DIR$/portal/project.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="android-game-basics.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="76bf6156-be71-4200-8181-a25129c6cf05" time="1369135632673" ignored="false" />
+    <file path="/Dummy.txt" changelist="76bf6156-be71-4200-8181-a25129c6cf05" time="1369805217403" ignored="false" />
     <file path="/a.java" changelist="76bf6156-be71-4200-8181-a25129c6cf05" time="1369035719380" ignored="false" />
     <file path="/sample.java" changelist="76bf6156-be71-4200-8181-a25129c6cf05" time="1369035666443" ignored="false" />
     <file path="/MainActivity.java" changelist="76bf6156-be71-4200-8181-a25129c6cf05" time="1369059324539" ignored="false" />
-    <file path="/TetrisScene.java" changelist="76bf6156-be71-4200-8181-a25129c6cf05" time="1369125200290" ignored="false" />
-    <file path="/GameScene.java" changelist="76bf6156-be71-4200-8181-a25129c6cf05" time="1369124208933" ignored="false" />
+    <file path="/TetrisScene.java" changelist="76bf6156-be71-4200-8181-a25129c6cf05" time="1369361956500" ignored="false" />
+    <file path="/GameScene.java" changelist="76bf6156-be71-4200-8181-a25129c6cf05" time="1369303143786" ignored="false" />
     <file path="/GameRegion.java" changelist="76bf6156-be71-4200-8181-a25129c6cf05" time="1369056440772" ignored="false" />
-    <file path="/GameApp.java" changelist="76bf6156-be71-4200-8181-a25129c6cf05" time="1369124668248" ignored="false" />
+    <file path="/GameApp.java" changelist="76bf6156-be71-4200-8181-a25129c6cf05" time="1369303020248" ignored="false" />
     <file path="/TetrisGame.java" changelist="76bf6156-be71-4200-8181-a25129c6cf05" time="1369061146589" ignored="false" />
     <file path="/GameView.java" changelist="76bf6156-be71-4200-8181-a25129c6cf05" time="1369125541472" ignored="false" />
-    <file path="/GameContext.java" changelist="76bf6156-be71-4200-8181-a25129c6cf05" time="1369059606165" ignored="false" />
+    <file path="/GameContext.java" changelist="76bf6156-be71-4200-8181-a25129c6cf05" time="1369214535524" ignored="false" />
     <file path="/GameSceneManager.java" changelist="76bf6156-be71-4200-8181-a25129c6cf05" time="1369061106451" ignored="false" />
     <file path="/SpaceBlasterGame.java" changelist="76bf6156-be71-4200-8181-a25129c6cf05" time="1369111322045" ignored="false" />
-    <file path="/GameLooper.java" changelist="76bf6156-be71-4200-8181-a25129c6cf05" time="1369123682824" ignored="false" />
+    <file path="/GameLooper.java" changelist="76bf6156-be71-4200-8181-a25129c6cf05" time="1369302290511" ignored="false" />
     <file path="/TetrisSurface.java" changelist="76bf6156-be71-4200-8181-a25129c6cf05" time="1369125965788" ignored="false" />
-    <file path="/TetrisGameApp.java" changelist="76bf6156-be71-4200-8181-a25129c6cf05" time="1369126667373" ignored="false" />
+    <file path="/TetrisGameApp.java" changelist="76bf6156-be71-4200-8181-a25129c6cf05" time="1369303120244" ignored="false" />
+    <file path="/DeviceHelper.java" changelist="76bf6156-be71-4200-8181-a25129c6cf05" time="1369214780873" ignored="false" />
+    <file path="/TetrisBlock.java" changelist="76bf6156-be71-4200-8181-a25129c6cf05" time="1369225896691" ignored="false" />
+    <file path="/TetrisShape.java" changelist="76bf6156-be71-4200-8181-a25129c6cf05" time="1369235945581" ignored="false" />
+    <file path="/TetrisShapeSpec.java" changelist="76bf6156-be71-4200-8181-a25129c6cf05" time="1369235703992" ignored="false" />
+    <file path="/TetrisShapeFactory.java" changelist="76bf6156-be71-4200-8181-a25129c6cf05" time="1369235964668" ignored="false" />
+    <file path="/fragment.java" changelist="76bf6156-be71-4200-8181-a25129c6cf05" time="1369301899464" ignored="false" />
+    <file path="/GameSurface.java" changelist="76bf6156-be71-4200-8181-a25129c6cf05" time="1369720338081" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,28 +132,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2d/draw/src/com/warsong/game/draw/MainActivity.java">
+      <file leaf-file-name="TetrisShape.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2d/basic-tetris/src/com/warsong/game/tetris/TetrisShape.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="0" selection-start="1108" selection-end="1108" vertical-scroll-proportion="0.0">
+            <state line="103" column="21" selection-start="1999" selection-end="1999" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2d/basic-tetris/src/com/warsong/game/tetris/MainActivity.java">
+      <file leaf-file-name="TetrisShapeSpec.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/2d/basic-tetris/src/com/warsong/game/tetris/TetrisShapeSpec.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="34" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="R.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/basic-framework/gen/com/warsong/game/basic/R.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="0" selection-start="1259" selection-end="1259" vertical-scroll-proportion="0.9119318">
+            <state line="28" column="0" selection-start="650" selection-end="650" vertical-scroll-proportion="0.46543002">
               <folding />
             </state>
           </provider>
@@ -174,43 +153,7 @@
       <file leaf-file-name="GameApp.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basic-framework/src/com/warsong/game/basic/GameApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TetrisGameApp.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2d/basic-tetris/src/com/warsong/game/tetris/TetrisGameApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="42" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TetrisSurface.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2d/basic-tetris/src/com/warsong/game/tetris/TetrisSurface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="7" selection-start="360" selection-end="360" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeviceHelper.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic-framework/src/com/warsong/game/helper/DeviceHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PackageHelper.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic-framework/src/com/warsong/game/helper/PackageHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="13" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0">
+            <state line="115" column="50" selection-start="2249" selection-end="2249" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -219,7 +162,25 @@
       <file leaf-file-name="GameContext.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basic-framework/src/com/warsong/game/basic/GameContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
+            <state line="72" column="0" selection-start="1290" selection-end="1290" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameSurface.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic-framework/src/com/warsong/game/basic/GameSurface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="77" column="11" selection-start="2056" selection-end="2056" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TetrisConstant.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2d/basic-tetris/src/com/warsong/game/tetris/TetrisConstant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="3" selection-start="438" selection-end="438" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -228,7 +189,34 @@
       <file leaf-file-name="GameLooper.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basic-framework/src/com/warsong/game/basic/GameLooper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="0" selection-start="914" selection-end="914" vertical-scroll-proportion="0.0">
+            <state line="34" column="18" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TetrisGameApp.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2d/basic-tetris/src/com/warsong/game/tetris/TetrisGameApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="0" selection-start="619" selection-end="619" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TetrisScene.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2d/basic-tetris/src/com/warsong/game/tetris/TetrisScene.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="37" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameScene.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic-framework/src/com/warsong/game/basic/GameScene.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="101" column="0" selection-start="1796" selection-end="1796" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -252,22 +240,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/2d/basic-tetris/src/com/warsong/game/tetris/TetrisGame.java" />
-        <option value="$PROJECT_DIR$/basic-framework/src/com/warsong/game/basic/GameContext.java" />
-        <option value="$PROJECT_DIR$/2d/basic-tetris/src/com/warsong/game/tetris/MainActivity.java" />
-        <option value="$PROJECT_DIR$/basic-framework/src/com/warsong/game/basic/GameSceneManager.java" />
-        <option value="$PROJECT_DIR$/basic-framework/src/com/warsong/game/basic/SceneRegion.java" />
-        <option value="$PROJECT_DIR$/2d/space-blaster/src/com/warsong/game/sb/SpaceBlasterGame.java" />
         <option value="$PROJECT_DIR$/basic-framework/src/com/warsong/game/basic/GameView.java" />
+        <option value="$PROJECT_DIR$/2d/basic-tetris/src/com/warsong/game/tetris/TetrisSurface.java" />
+        <option value="$USER_HOME$/.AndroidStudioPreview/system/compile-server/android-game-basics_8917e002/targets/java-production/tetris/android/generated_sources/aapt/android/game/R.java" />
+        <option value="$PROJECT_DIR$/basic-framework/gen/com/warsong/game/basic/R.java" />
+        <option value="$PROJECT_DIR$/basic-framework/src/com/warsong/game/helper/DeviceHelper.java" />
+        <option value="$PROJECT_DIR$/2d/basic-tetris/src/com/warsong/game/tetris/TetrisBlock.java" />
+        <option value="$PROJECT_DIR$/2d/basic-tetris/src/com/warsong/game/tetris/TetrisShapeSpec.java" />
+        <option value="$PROJECT_DIR$/2d/basic-tetris/src/com/warsong/game/tetris/TetrisShape.java" />
+        <option value="$PROJECT_DIR$/2d/basic-tetris/src/com/warsong/game/tetris/TetrisShapeFactory.java" />
+        <option value="$PROJECT_DIR$/basic-framework/src/com/warsong/game/basic/GameContext.java" />
         <option value="$PROJECT_DIR$/basic-framework/src/com/warsong/game/basic/GameLooper.java" />
+        <option value="$PROJECT_DIR$/basic-framework/src/com/warsong/game/basic/GameApp.java" />
+        <option value="$PROJECT_DIR$/2d/basic-tetris/src/com/warsong/game/tetris/TetrisGameApp.java" />
         <option value="$PROJECT_DIR$/basic-framework/src/com/warsong/game/basic/GameScene.java" />
         <option value="$PROJECT_DIR$/2d/basic-tetris/src/com/warsong/game/tetris/TetrisScene.java" />
         <option value="$PROJECT_DIR$/basic-framework/src/com/warsong/game/basic/GameSurface.java" />
-        <option value="$PROJECT_DIR$/2d/basic-tetris/src/com/warsong/game/tetris/TetrisSurface.java" />
-        <option value="$USER_HOME$/.AndroidStudioPreview/system/compile-server/android-game-basics_8917e002/targets/java-production/tetris/android/generated_sources/aapt/android/game/R.java" />
-        <option value="$PROJECT_DIR$/basic-framework/src/com/warsong/game/basic/GameApp.java" />
-        <option value="$PROJECT_DIR$/2d/basic-tetris/src/com/warsong/game/tetris/TetrisGameApp.java" />
-        <option value="$PROJECT_DIR$/basic-framework/gen/com/warsong/game/basic/R.java" />
       </list>
     </option>
   </component>
@@ -340,7 +328,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -355,7 +342,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="space-blaster" />
+              <option name="myItemId" value="basic-tetris" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -365,7 +352,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="space-blaster" />
+              <option name="myItemId" value="basic-tetris" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -373,79 +360,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android-game-basics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="basic-framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android-game-basics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="basic-framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="game" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android-game-basics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="basic-framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android-game-basics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="basic-framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android-game-basics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android-3d-flip-view-transition-read-only" />
+              <option name="myItemId" value="tetris" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -456,17 +378,18 @@
     <property name="options.splitter.main.proportions" value="0.17937219" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="FullScreen" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager" selected="Android Application.portal">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -563,7 +486,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
       <option name="PREFERRED_AVD" value="" />
       <option name="USE_COMMAND_LINE" value="true" />
       <option name="COMMAND_LINE" value="" />
@@ -643,11 +566,18 @@
       <workItem from="1369111028859" duration="317000" />
       <workItem from="1369111363347" duration="8130000" />
       <workItem from="1369135624690" duration="17000" />
+      <workItem from="1369214117474" duration="12491000" />
+      <workItem from="1369291910203" duration="37000" />
+      <workItem from="1369291972869" duration="923000" />
+      <workItem from="1369300506470" duration="3931000" />
+      <workItem from="1369634366364" duration="582000" />
+      <workItem from="1369718299683" duration="1808000" />
+      <workItem from="1369805208847" duration="19000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20473000" />
+    <option name="totallyTimeSpent" value="40264000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="-3" width="1370" height="740" extended-state="6" />
@@ -656,22 +586,22 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38933763" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901135" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11308562" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.08265802" sideWeight="0.70378786" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20984848" sideWeight="0.61066234" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19318181" sideWeight="0.897893" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.102106966" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39059967" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36466774" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -737,102 +667,106 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/basic-framework/src/com/warsong/game/basic/GameSceneManager.java">
+    <entry file="file://$PROJECT_DIR$/basic-framework/src/com/warsong/game/helper/DeviceHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="58" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0" />
+        <state line="19" column="35" selection-start="620" selection-end="620" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic-framework/src/com/warsong/game/basic/GameScene.java">
+    <entry file="file://$PROJECT_DIR$/2d/basic-tetris/src/com/warsong/game/tetris/TetrisBlock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0" />
+        <state line="60" column="4" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/view/View.class">
+    <entry file="file://$PROJECT_DIR$/2d/basic-tetris/src/com/warsong/game/tetris/TetrisShapeFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1011" column="68" selection-start="45081" selection-end="45081" vertical-scroll-proportion="0.5294118" />
+        <state line="67" column="0" selection-start="1906" selection-end="1906" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/view/SurfaceView.class">
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/view/MotionEvent.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="47" selection-start="189" selection-end="189" vertical-scroll-proportion="0.14705883" />
+        <state line="6" column="69" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2d/basic-tetris/src/com/warsong/game/tetris/TetrisScene.java">
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/os/Message.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="31" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic-framework/src/com/warsong/game/basic/GameSurface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0" />
+        <state line="14" column="29" selection-start="452" selection-end="452" vertical-scroll-proportion="0.41154563" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/basic-framework/src/com/warsong/game/basic/GameContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic-framework/src/com/warsong/game/basic/GameLooper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="914" selection-end="914" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2d/draw/src/com/warsong/game/draw/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="0" selection-start="1108" selection-end="1108" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic-framework/src/com/warsong/game/helper/PackageHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic-framework/src/com/warsong/game/helper/DeviceHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2d/basic-tetris/src/com/warsong/game/tetris/TetrisSurface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="7" selection-start="360" selection-end="360" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic-framework/src/com/warsong/game/basic/GameApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0">
+        <state line="72" column="0" selection-start="1290" selection-end="1290" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2d/basic-tetris/src/com/warsong/game/tetris/TetrisGameApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="42" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0">
+        <state line="27" column="0" selection-start="619" selection-end="619" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2d/basic-tetris/src/com/warsong/game/tetris/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/basic-framework/src/com/warsong/game/basic/GameApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="34" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0">
+        <state line="115" column="50" selection-start="2249" selection-end="2249" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic-framework/gen/com/warsong/game/basic/R.java">
+    <entry file="file://$PROJECT_DIR$/basic-framework/src/com/warsong/game/basic/GameLooper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="1259" selection-end="1259" vertical-scroll-proportion="0.9119318">
+        <state line="34" column="18" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/view/GestureDetector.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="19" selection-start="1348" selection-end="1348" vertical-scroll-proportion="0.33275864" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic-framework/src/com/warsong/game/basic/GameScene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="0" selection-start="1796" selection-end="1796" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2d/basic-tetris/src/com/warsong/game/tetris/TetrisScene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="37" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic-framework/src/com/warsong/game/basic/GameSurface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="11" selection-start="2056" selection-end="2056" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2d/basic-tetris/src/com/warsong/game/tetris/TetrisConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="3" selection-start="438" selection-end="438" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2d/basic-tetris/src/com/warsong/game/tetris/TetrisShape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="21" selection-start="1999" selection-end="1999" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2d/basic-tetris/src/com/warsong/game/tetris/TetrisShapeSpec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="650" selection-end="650" vertical-scroll-proportion="0.46543002">
           <folding />
         </state>
       </provider>
@@ -889,7 +823,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>space-blaster</last-edited>
+          <last-edited>portal</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

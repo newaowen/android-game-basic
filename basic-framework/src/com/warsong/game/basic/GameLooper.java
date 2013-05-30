@@ -1,6 +1,9 @@
 package com.warsong.game.basic;
 
 import android.graphics.Canvas;
+import android.os.Handler;
+import android.os.Looper;
+import android.os.Message;
 
 /**
  * game loop
@@ -15,12 +18,22 @@ public class GameLooper extends Thread {
     // frame duration time per frame (unit: 毫秒)
     protected long frameDuration;
 
+    protected Handler handler;
+
     public GameLooper() {
-         
+        handler = new Handler(Looper.myLooper());
     }
 
     public float getFps() {
         return fps;
+    }
+
+    public void dispatchMessage(Message msg) {
+        handler.sendMessage(msg);
+    }
+
+    public Handler getHandler() {
+        return handler;
     }
 
     public void setFps(float fps) {

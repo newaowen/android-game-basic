@@ -15,6 +15,7 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 
         tetrisGame = new TetrisGameApp(this);
+        // 创建并初始化表面
         tetrisGame.createSurface();
 	}
 
