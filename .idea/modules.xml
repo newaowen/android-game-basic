@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/3d/android-3d-flip-view-transition-read-only/3d-flip-view-transition.iml" filepath="$PROJECT_DIR$/3d/android-3d-flip-view-transition-read-only/3d-flip-view-transition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3d/3d-flip-view-transition/3d-flip-view-transition.iml" filepath="$PROJECT_DIR$/3d/3d-flip-view-transition/3d-flip-view-transition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic-image-px/android-game-basics.iml" filepath="$PROJECT_DIR$/basic-image-px/android-game-basics.iml" />
       <module fileurl="file://$PROJECT_DIR$/2d/asteroids/asteroids.iml" filepath="$PROJECT_DIR$/2d/asteroids/asteroids.iml" />
       <module fileurl="file://$PROJECT_DIR$/basic-framework/basic-framework.iml" filepath="$PROJECT_DIR$/basic-framework/basic-framework.iml" />
       <module fileurl="file://$PROJECT_DIR$/2d/basic-tetris/basic-tetris.iml" filepath="$PROJECT_DIR$/2d/basic-tetris/basic-tetris.iml" />

@@ -2,6 +2,7 @@
   <library name="android-support-v4">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/2d/draw/libs/android-support-v4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/basic-image-px/libs/android-support-v4.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

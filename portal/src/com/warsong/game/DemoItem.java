@@ -17,13 +17,6 @@ public class DemoItem {
     // 全包路径名（包含末尾的类名）
     private String fullPackageName;
     
-	
-//	public DemoItem(String name, String subPackageName, String className) {
-//        this.name = name;
-//        this.className = className;
-//        this.subPackageName = subPackageName;
-//    }
-	
 	public DemoItem(String name, String fullPackageName) {
 		this.name = name;
 		this.fullPackageName = fullPackageName;
@@ -31,15 +24,6 @@ public class DemoItem {
 		int index = fullPackageName.lastIndexOf(".");
 		this.className = fullPackageName.substring(index);
 	}
-
-//    public String getSubPackageName() {
-//		return subPackageName;
-//	}
-//
-//	public void setSubPackageName(String subPackageName) {
-//		this.subPackageName = subPackageName;
-//	}
-
 
     public String getClassName() {
         return className;
@@ -65,6 +49,5 @@ public class DemoItem {
 	public void setFullPackageName(String fullPackageName) {
 		this.fullPackageName = fullPackageName;
 	}
-
 
 }

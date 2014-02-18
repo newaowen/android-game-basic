@@ -37,7 +37,6 @@ public class MainActivity extends Activity {
 
         screenWidth = metrics.widthPixels;
         screenHeight = metrics.heightPixels;
-
     }
 
     protected class DrawView extends View {
